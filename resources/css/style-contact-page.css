@@ -1,0 +1,28 @@
+/* Additional Styles for the Contact Page*/
+.contact-blurb {
+    margin-left: 150px;
+}
+
+.div-main {
+    margin-top: 90px;
+}
+
+
+/* Cell phone and tablet appearance */
+@media only screen and (max-width: 656px) {
+
+    #nav-menu {
+        list-style: none;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .contact-blurb {
+        margin-left: 65px;
+    }
+
+    .div-main {
+        margin-top: 70px;
+    }
+
+}
