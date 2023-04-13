@@ -6,32 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/style-1.css">
     <title>Oliver De La Cruz</title>
+    
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+            <ul id="nav-menu">
+                <li><a id="nav-link" href="./index.html">Home</a></li>
+                <!-- <li><a href="./about.html">About</a></li>
+                <li><a href="./projects.html">Projects</a></li> -->
+                <li><a id="nav-link" href="./contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <img src="./resources/images/oli-headshot-professional- 2point7MB.jpg" alt="image of Oliver De La Cruz">
-        <div>
+
+    <main class="container">
+        <div class="profile-image" >
+            <img src="./resources/images/oli-headshot-professional- 2point7MB.jpg" alt="image of Oliver De La Cruz">
+        </div>
+        <div class="bio">
             <h1>Oliver De La Cruz</h1>
-            <p>Software Developer, Educator, Polyglot</p>
+            <h2>Software Developer, Educator, Polyglot</h2>
             <ul>
                 <li>MIT — B.S. in Aerospace Engineering with Information Technology </li>
-                <li>6+ years experience in engineering and IT</li>
+                <li>6+ years of experience in engineering and IT</li>
             </ul>
-            <p>View work experience on <a href="https://www.linkedin.com/in/odlcm/">LinkedIn</a></p>
+            <p id="view-my">View my:</p>
+            <ul>
+                <li>Work experience on <a target="_blank" href="https://www.linkedin.com/in/odlcm/">LinkedIn</a></li>
+                <li>Coding projects on <a target="_blank" href="https://github.com/oliverdelacruzm/">GitHub</a></li>
+            </ul>
+            
+
         </div>
     </main>
+    <script src="./resources/js/main.js"></script>
 </body>
 </html>
