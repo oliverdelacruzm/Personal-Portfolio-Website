@@ -136,7 +136,6 @@ footer {
   }
 }
 
-  
 /* Media Query: Tablet appearance */
 @media only screen and (max-width: 656px) and (min-width: 391px) {
 
@@ -170,6 +169,17 @@ footer {
         margin-left: 0px;
     }
 
+    .about-projects {
+        margin-left: 60px;
+        /* display: grid;
+        grid-template-columns: 1fr;
+        background-color: aqua; */
+    }
+
+    footer {
+        margin-left: -90px; 
+    }
+
 }
 
 /* Media Query: Cell phone appearance */
@@ -198,9 +208,6 @@ footer {
 
     .profile-image {
         text-align: center;
-        /* background-color: grey; */
-        /* flex: 1;
-        float: left; */
     }
 
     .profile-image img {
@@ -214,4 +221,14 @@ footer {
         margin-top: 20px;
         text-align: left;
     }
+
+     .about-projects {
+        margin-left: 60px;
+    }
+
+    footer {
+        margin-left: -90px; 
+        margin-top: 50px;
+    }
+
 }
