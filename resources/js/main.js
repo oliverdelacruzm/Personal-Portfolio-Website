@@ -1,3 +1,5 @@
+//Add JavaScript Interactivity for Navigation Menu Items 
+
 const navListItems = document.querySelectorAll("#nav-link");
 const currentURL = window.location.href;
 
